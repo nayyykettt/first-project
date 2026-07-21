@@ -1,9 +1,9 @@
 /* место для вашего кода */
 
 ul, ol {
-    list-style: none; /* Убирает маркеры или нумерацию */
-    margin: 0;        /* Сбрасывает внешние отступы */
-    padding: 0;       /* Сбрасывает внутренние отступы */
+    list-style: none; 
+    margin: 0;        
+    padding: 0;       
 }
 
 .body{
@@ -253,9 +253,19 @@ ul, ol {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.about__text{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
 }
 
 .about__paragraph{
+    
 
 }
 
@@ -263,6 +273,11 @@ ul, ol {
 
 }
 .footer{
+    margin-left:50px;
+    margin-right: 50px;
+    margin-bottom:82px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
