@@ -146,15 +146,65 @@ ul, ol {
 }
 
 .height{
-    width:100% ;
-    height:100% ;
+    display: block;
+    width: 100%;
+    position:relative;
+    background-image:url(/images/card-lot-01.jpg) ;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 100%;
+    background-color: rgba(0 0 0 /0.5);
+    background-position:center;
 }
 
 .heightt{
-    width:100% ;
-    height:100% ;
+    display: block;
+    width: 100%;
+    position:relative;
+    background-image:url(/images/card-lot-02.jpg) ;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 100%;
+    background-color: rgba(0 0 0 /0.5);
+    background-position: center;
 }
 
+.heighttt{
+    display: block;
+    width: 100%;
+    position:relative;
+    background-image:url(/images/card-lot-03.jpg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: rgba(0 0 0 /0.5);
+    background-position:center;
+}
+
+.name__lot{
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight:700 ;
+    text-transform:uppercase ;
+    line-height:130% ;
+    color:white;
+    text-decoration: underline;
+}
+.lot_about{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight:400 ;
+    line-height:120% ;
+    color:white;
+    margin-top: auto;
+}
+
+.padla{
+    padding:48px 40px;
+    display: flex;
+    flex-direction: column;
+    height: 596px;
+}
 .under__lots{
     padding-left:40px;
     font-family: Raleway;
@@ -163,6 +213,8 @@ ul, ol {
 
 }
 .about{
+    display:grid ;
+    grid-template-columns: 334px 1fr;
     padding-bottom: 180px;
     padding-top: 120px;
     padding-left: 24px;
@@ -171,21 +223,45 @@ ul, ol {
 }
 
 .logo{
-
+    margin-top: 36px;
+    margin-left:47px;
+    width:240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
 }
-
+.logos{
+    margin-top:63px;
+    margin-left:46px;
+    background-image: url(/images/logo-white.svg);
+    width: 148px;
+    height: 114px;
+}
 .about__lots{
+    display: grid;
+    grid-template-rows: min-content, 1fr;
+    margin-top: 136px;
+    margin-bottom:13px;
+
 
 }
 
 .about__lots__word{
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .about__paragraph{
 
 }
 
+.about__text{
+
+}
 .footer{
 
 }
